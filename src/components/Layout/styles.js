@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const MainContainer = styled.div`
+  overflow-x: hidden;
+`;
+
 export const Container = styled.div`
   width: 100vw;
   display: flex;
@@ -21,5 +25,6 @@ export const ContentContainer = styled.div`
   margin: 0 auto;
   padding: 50px 20px;
   display: flex;
+  justify-content: space-between;
   max-width: 1194px;
 `;
